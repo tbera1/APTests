@@ -1,0 +1,10 @@
+{
+  "invoice1": {
+    "documentPath": "\\\\RDV-010152\\Test_Auto\\AIGL\\ANY\\Inv.Any.NPO.11849.pdf",
+    "invoiceNumber": "11849"
+  },
+  "invoice2": {
+    "documentPath": "\\\\RDV-010152\\Test_Auto\\AIGL\\ANY\\Inv.Any.NPO.10034.pdf",
+    "invoiceNumber": "10034"
+  }
+}

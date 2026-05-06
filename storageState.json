@@ -1,0 +1,361 @@
+{
+  "cookies": [
+    {
+      "name": "ASP.NET_SessionId",
+      "value": "n11pjvqlzjs5gmkth1z45eqy",
+      "domain": "rdv-010809.hylandqa.net",
+      "path": "/AppNet",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "lat",
+      "value": "",
+      "domain": "rdv-010809.hylandqa.net",
+      "path": "/AppNet",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "appguid",
+      "value": "be523d57-8153-4676-bd2d-8c84101410f6",
+      "domain": "rdv-010809.hylandqa.net",
+      "path": "/",
+      "expires": 1810215804.717108,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://rdv-010809.hylandqa.net",
+      "localStorage": [
+        {
+          "name": "OB_T_-524865712",
+          "value": "\"Filter Items by Name\""
+        },
+        {
+          "name": "OB_T_-712083819",
+          "value": "\"The keyword values entered for this query contain wildcards that are not permitted.\""
+        },
+        {
+          "name": "OB_T_-736359732",
+          "value": "\"All of the characters must be filled in.\""
+        },
+        {
+          "name": "OB_T_-618775244",
+          "value": "\"Nothing to display\""
+        },
+        {
+          "name": "OB_T_1123990057",
+          "value": "\"Select Group\""
+        },
+        {
+          "name": "OB_T_-2105537039",
+          "value": "\"Type to filter\""
+        },
+        {
+          "name": "APP_appnet_OB_1510",
+          "value": "0"
+        },
+        {
+          "name": "OB_T_1572800179",
+          "value": "\"combo box expanded editable opens list\""
+        },
+        {
+          "name": "OB_T_-743654096",
+          "value": "\"Please enter a date or a date and time in the format\""
+        },
+        {
+          "name": "OB_T_1295702659",
+          "value": "\"Stay on Page\""
+        },
+        {
+          "name": "APP_appnet_OB_T_1504",
+          "value": "en-us"
+        },
+        {
+          "name": "OB_T_1572531810",
+          "value": "\"Please enter a whole number. The maximum number of digits for this field is\""
+        },
+        {
+          "name": "OB_T_-995258740",
+          "value": "\"Please enter a number.\""
+        },
+        {
+          "name": "OB_T_-742988179",
+          "value": "\"Your session has expired. You are required to log in again.\""
+        },
+        {
+          "name": "OB_T_-1582028609",
+          "value": "\"Filter cleared\""
+        },
+        {
+          "name": "OB_T_534548599",
+          "value": "\"You must enter all required values to proceed.\""
+        },
+        {
+          "name": "OB_T_797653115",
+          "value": "\"(filter by item name)\""
+        },
+        {
+          "name": "OB_T_1285797236",
+          "value": "\"Ungroup Items\""
+        },
+        {
+          "name": "OB_T_1249087961",
+          "value": "\"Log Out\""
+        },
+        {
+          "name": "APP_appnet_OB_1511",
+          "value": "false"
+        },
+        {
+          "name": "OB_T_1139867873",
+          "value": "\"No items to display\""
+        },
+        {
+          "name": "OB_T_1802075108",
+          "value": "\"Do you want to continue anyway?\""
+        },
+        {
+          "name": "OB_T_336271000",
+          "value": "\"Double-click to collapse\""
+        },
+        {
+          "name": "OB_T_-1606411296",
+          "value": "\"Press TAB to insert:\""
+        },
+        {
+          "name": "OB_T_-664167631",
+          "value": "\"Leave Page\""
+        },
+        {
+          "name": "OB_T_1894503809",
+          "value": "\"'{0}' is not a valid value for keyword type '{1}'.\""
+        },
+        {
+          "name": "OB_T_1018757122",
+          "value": "\"Value cannot have a leading wildcard.\""
+        },
+        {
+          "name": "OB_T_1431163234",
+          "value": "\"Value cannot have a trailing wildcard.\""
+        },
+        {
+          "name": "OB_T_-81480563",
+          "value": "\"The following field was not filled in:\""
+        },
+        {
+          "name": "APP_appnet_OB_T_1503",
+          "value": "en-us"
+        },
+        {
+          "name": "OB_T_628059291",
+          "value": "\"Group Items\""
+        },
+        {
+          "name": "OB_T_-429830776",
+          "value": "\"Deselect Group\""
+        },
+        {
+          "name": "OB_T_1688527205",
+          "value": "\"One or more items require your attention:\""
+        },
+        {
+          "name": "OB_T_-442637491",
+          "value": "\"You must enter unique keyword values to proceed:\""
+        },
+        {
+          "name": "OB_T_-1385300097",
+          "value": "\"{0} results found\""
+        },
+        {
+          "name": "APP_appnet_OB_T_1502",
+          "value": "false"
+        },
+        {
+          "name": "OB_T_-328486882",
+          "value": "\"You have successfully logged out.\""
+        },
+        {
+          "name": "APP_appnet_OB_1501",
+          "value": "https://rdv-009950.hylandqa.net/AppNet"
+        },
+        {
+          "name": "OB_T_1731460054",
+          "value": "\"OK\""
+        },
+        {
+          "name": "OB_T_2097685968",
+          "value": "\"All keywords are clear now\""
+        },
+        {
+          "name": "OB_T_1751657249",
+          "value": "\"Continue\""
+        },
+        {
+          "name": "OB_T_-2002626455",
+          "value": "\"Warning! An autofill keyword set has expanded as a result of this operation.\\r\\nDo you want to review the keyword changes?\""
+        },
+        {
+          "name": "OB_T_-1119089436",
+          "value": "\"Please enter a value in the format:\""
+        },
+        {
+          "name": "OB_T_248275780",
+          "value": "\"Clear Filter\""
+        },
+        {
+          "name": "OB_1106",
+          "value": "false"
+        },
+        {
+          "name": "OB_T_-483530830",
+          "value": "\"No matches found\""
+        },
+        {
+          "name": "OB_T_1267579624",
+          "value": "\"The following keyword input contains an invalid value:\""
+        },
+        {
+          "name": "APP_appnet_OB_1512",
+          "value": "false"
+        },
+        {
+          "name": "OB_T_900452673",
+          "value": "\"Lock keyword value\""
+        },
+        {
+          "name": "OB_T_-1227306794",
+          "value": "\"You do not have rights to assign {0} a value of {1}\""
+        },
+        {
+          "name": "OB_T_-530162946",
+          "value": "\"Click to Show Panel\""
+        },
+        {
+          "name": "OB_T_2028442235",
+          "value": "\"The number entered is outside the allowed range of values.\""
+        },
+        {
+          "name": "OB_T_621946226",
+          "value": "\"The following keyword values already exist in the database:\""
+        },
+        {
+          "name": "OB_T_-1171457985",
+          "value": "\"There was a problem loading the Hyland Desktop Host.\""
+        },
+        {
+          "name": "OB_T_582679163",
+          "value": "\"The value entered has too many digits after the decimal.\""
+        },
+        {
+          "name": "OB_T_1399572137",
+          "value": "\"Running this query may take a long time. Are you sure you want to run this query?\""
+        },
+        {
+          "name": "OB_T_1841393284",
+          "value": "\"Logout\""
+        },
+        {
+          "name": "OB_T_-870129136",
+          "value": "\"Continue Logging Out\""
+        },
+        {
+          "name": "OB_T_2015076897",
+          "value": "\"Restore Previous Selection\""
+        },
+        {
+          "name": "OB_T_-2017885167",
+          "value": "\"Click \\\"{0}\\\" to return to the client and review the items.\\r\\nClick \\\"{1}\\\" to continue closing. Unsaved data may be lost.\""
+        },
+        {
+          "name": "OB_T_2097962567",
+          "value": "\"Wildcards in '{0}' for Keyword Type '{1}' are not permitted.\""
+        },
+        {
+          "name": "OB_T_-1892955725",
+          "value": "\"Please enter a valid currency amount for your country. The currency symbol is not required.\""
+        },
+        {
+          "name": "OB_T_788257234",
+          "value": "\"{0} selected\""
+        },
+        {
+          "name": "OB_T_-1771015499",
+          "value": "\"Select All Items\""
+        },
+        {
+          "name": "OB_T_-819239929",
+          "value": "\"The maximum number of characters allowed for this field is {0}.\""
+        },
+        {
+          "name": "OB_T_-2141232278",
+          "value": "\"Please enter a valid currency amount in the following format: {0}\""
+        },
+        {
+          "name": "OB_T_1927173321",
+          "value": "\"The system has identified unsaved and/or incomplete work.\""
+        },
+        {
+          "name": "OB_T_1628081102",
+          "value": "\"Action Required\""
+        },
+        {
+          "name": "OB_T_1568169933",
+          "value": "\"Value cannot contain any wildcards.\""
+        },
+        {
+          "name": "OB_T_-2066231154",
+          "value": "\"Click and drag to resize\""
+        },
+        {
+          "name": "OB_T_936676385",
+          "value": "\"combo box collapsed editable opens list\""
+        },
+        {
+          "name": "OB_T_-290425309",
+          "value": "\"Please enter a date in the format\""
+        },
+        {
+          "name": "OB_T_-702926566",
+          "value": "\"Unlock keyword value\""
+        },
+        {
+          "name": "OB_T_1028851101",
+          "value": "\"The following actions will be performed on your behalf upon logging out:\""
+        },
+        {
+          "name": "OB_336",
+          "value": "true"
+        },
+        {
+          "name": "OB_T_-1733033048",
+          "value": "\"Please enter one of the preconfigured values for this keyword type.\""
+        },
+        {
+          "name": "OB_T_217984346",
+          "value": "\"There was an error while expanding AutoFill keyword set.\""
+        },
+        {
+          "name": "OB_T_1570998132",
+          "value": "\"Cancel\""
+        },
+        {
+          "name": "OB_T_-1321103814",
+          "value": "\"Return to Client\""
+        },
+        {
+          "name": "OB_T_-2069898168",
+          "value": "\"Click \\\"{0}\\\" to proceed and discard unsaved changes and/or unfinished work.\""
+        }
+      ]
+    }
+  ]
+}
