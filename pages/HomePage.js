@@ -184,6 +184,8 @@ class HomePage extends BasePage {
         const docFrame = await this.getDocFrame();
         await this.sortByDocumentDateDesc();
         const firstRow = docFrame.locator('[role="row"]').nth(1);
+        await expect(firstRow).toBeVisible();
+        await expect(firstRow.locator('[role="gridcell"]').first()).toHaveText(/\S+/, { timeout: 15000 });
         await firstRow.click();
 
         await docFrame.getByRole('button', { name: 'Context Menu' }).click();
@@ -196,8 +198,8 @@ class HomePage extends BasePage {
         await popup.waitForLoadState('domcontentloaded');
         const documentHandleField = popup.getByRole('textbox', { name: 'Document Handle' });
         await documentHandleField.waitFor({ state: 'visible' });
-
-        const documentHandle = await documentHandleField.inputValue();
+        await expect(documentHandleField).not.toHaveValue('', {timeout: 15000});
+        const documentHandle = (await documentHandleField.inputValue()).trim();
         console.log('Document Handle:', documentHandle);
 
         await popup.getByRole('button', { name: 'Save' }).click().catch(() => {});
@@ -250,8 +252,6 @@ class HomePage extends BasePage {
 
         await header.click();
 
-        await this.page.waitForTimeout(1000);
-
         const descIndicator = docFrame.locator('.ui-iggrid-colindicator-desc');
 
         const isDesc = await descIndicator.isVisible().catch(() => false);
@@ -259,8 +259,20 @@ class HomePage extends BasePage {
         if (!isDesc) {
             console.log('🔄 Switching to DESC sort');
             await header.click();
-            await this.page.waitForTimeout(1000);
         }
+
+        await expect(descIndicator).toBeVisible({ timeout: 10000 });
+
+        // Wait for rows to stabilize
+        const firstDataCell = docFrame
+            .locator('[role="row"]')
+            .nth(1)
+            .locator('[role="gridcell"]')
+            .first();
+
+        await expect(firstDataCell).toHaveText(/\S+/, {
+            timeout: 15000
+        });
 
         console.log('Sorted by Document Date DESC');
     }
