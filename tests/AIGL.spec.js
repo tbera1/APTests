@@ -20,8 +20,8 @@ test.beforeEach(async ({ page }) => {
   await page.goto('/AppNet');
 
   await loginPage.login(
-    process.env.OB_USERNAME,
-    process.env.OB_PASSWORD
+    process.env.APP_USERNAME,
+    process.env.APP_PASSWORD
   );
 
   await page.waitForLoadState('domcontentloaded');
