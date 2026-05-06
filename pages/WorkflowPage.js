@@ -49,10 +49,8 @@ class WorkflowPage extends BasePage {
       .frameLocator('iframe[name="frmDocuments"]')
       .frameLocator('iframe[name="frmNAXDocProvider"]');
 
-    // 🔑 Wait for grid to load
     await frame.locator('body').waitFor();
 
-    // 🔑 Get headers
     const headers = frame.getByRole('columnheader');
     const headerCount = await headers.count();
 
@@ -63,16 +61,15 @@ class WorkflowPage extends BasePage {
 
       if (text.includes(columnName)) {
         columnIndex = i;
-        console.log(`📊 Column "${columnName}" at index ${i}`);
+        console.log(`Column "${columnName}" at index ${i}`);
         break;
       }
     }
 
     if (columnIndex === -1) {
-      throw new Error(`❌ Column not found: ${columnName}`);
+      throw new Error(`Column not found: ${columnName}`);
     }
 
-    // 🔑 Get rows
     const rows = frame.locator('[role="row"]');
     const rowCount = await rows.count();
 
@@ -88,14 +85,14 @@ class WorkflowPage extends BasePage {
       const cellText = (await cell.innerText()).trim();
 
       if (cellText === value) {
-        console.log(`✅ Found row with ${columnName}: ${value}`);
+        console.log(`Found row with ${columnName}: ${value}`);
 
         await cell.click();
         return;
       }
     }
 
-    throw new Error(`❌ No match for ${columnName} = ${value}`);
+    throw new Error(`No match for ${columnName} = ${value}`);
   }
 }
 
