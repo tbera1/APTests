@@ -8,6 +8,11 @@ module.exports = defineConfig({
 
   timeout: 60 * 1000,
 
+  reporter: [
+    ['html', { open: 'never' }],
+    ['list']
+  ],
+
   use: {
     baseURL: process.env.BASE_URL || 'https://RDV-010809.hylandqa.net/AppNet',
 
