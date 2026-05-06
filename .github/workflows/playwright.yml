@@ -6,11 +6,17 @@ on:
     branches: [ main, master ]
 
   workflow_dispatch:
-    
+
 jobs:
   test:
     timeout-minutes: 60
     runs-on: self-hosted
+    
+    env:
+      APP_USERNAME: ${{ secrets.APP_USERNAME }}
+      APP_PASSWORD: ${{ secrets.APP_PASSWORD }}
+      BASE_URL: ${{ secrets.BASE_URL }}
+
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4

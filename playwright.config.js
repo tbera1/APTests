@@ -21,8 +21,8 @@ module.exports = defineConfig({
 
   metadata: {
     credentials: {
-      username: process.env.USERNAME || 'qa',
-      password: process.env.PASSWORD || 'qa'
+      username: process.env.APP_USERNAME || 'qa',
+      password: process.env.APP_PASSWORD || 'qa'
     }
   }
 });
